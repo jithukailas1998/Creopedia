@@ -134,58 +134,6 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
     );
-    // return Scaffold(
-    //   appBar: AppBar(
-    //     title: Text("Homepage"),
-    //     centerTitle: true,
-    //     backgroundColor: Colors.green,
-
-    //   ),
-    //   body: Container(
-    //     child: Column(
-    //       mainAxisAlignment: MainAxisAlignment.center,
-    //       children: [
-    //       Row(
-    //         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-    //         children: [
-    //         RaisedButton(
-    //   shape: RoundedRectangleBorder(
-    //     borderRadius: BorderRadius.circular(18.0),
-    //     side: BorderSide(color: Colors.red)),
-    //   onPressed: () {
-    //     Navigator.push(
-    //           context,
-    //           MaterialPageRoute(
-    //             builder: (context)=> PaymentHome(),
-    //           ),
-    //         );
-    //   },
-    //   color: Colors.red,
-    //   textColor: Colors.white,
-    //   child: Text("Payment".toUpperCase(),
-    //     style: TextStyle(fontSize: 24)),
-    // ),
-    // RaisedButton(
-    //   shape: RoundedRectangleBorder(
-    //     borderRadius: BorderRadius.circular(18.0),
-    //     side: BorderSide(color: Colors.red)),
-    //   onPressed: () {
-    //     Navigator.push(
-    //           context,
-    //           MaterialPageRoute(
-    //             builder: (context)=> MapPoly(),
-    //           ),
-    //         );
-    //   },
-    //   color: Colors.red,
-    //   textColor: Colors.white,
-    //   child: Text("google map".toUpperCase(),
-    //     style: TextStyle(fontSize: 24)),
-    // ),
-    //       ],)
-    //     ],),
-    //   ),
-
-    // );
+    
   }
 }
