@@ -59,6 +59,8 @@ class _PaymentHomeState extends State<PaymentHome> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: true,
+      resizeToAvoidBottomPadding: true,
       appBar: AppBar(
         backgroundColor: Colors.red,
         title: Text("Payment"),
